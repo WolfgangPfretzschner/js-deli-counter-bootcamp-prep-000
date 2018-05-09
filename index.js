@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine){
     }
     katzDeliLine.push(number)
 
-    console.log(`Welcome, ${number}. You are number ${katzDeliLine.length} in line.`)
+    console.log(`Welcome, ${currNumber}. You are number ${katzDeliLine.length} in line.`)
     //return `Welcome, ${number}. You are number ${katzDeliLine.length} in line.`
 }
 
