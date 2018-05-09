@@ -1,7 +1,7 @@
 var katzDeliLine=[];                   //Current Guests already waiting in line
 
-function takeANumber(katzDeliLine){ 
-    var number = katzDeliLine.length
+function takeANumber(katzDeliLine){
+    var number = katzDeliLine.length+1
     katzDeliLine.push(number)
     console.log(`Welcome, ${number}. You are number ${katzDeliLine.length} in line.`)
     //return `Welcome, ${number}. You are number ${katzDeliLine.length} in line.`
