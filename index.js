@@ -1,7 +1,7 @@
 var katzDeliLine=[];                   //Current Guests already waiting in line
 var number = 0;
 function takeANumber(katzDeliLine){
-    number++;
+    number = number +1;
 
     katzDeliLine.push(number)
 
